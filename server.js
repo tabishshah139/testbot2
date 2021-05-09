@@ -136,7 +136,7 @@ message.channel.send("**Help has been sent on DMs!**")
          .setColor("#580e6b")
          .setThumbnail(message.author.avatarURL)
          .setDescription(`
-     !stock
+     +stock
 [Bot made by Paul_Walker, click here to join!](https://discord.gg/N9gGwn4bDw)
               
        `)
