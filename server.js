@@ -83,36 +83,36 @@ bot.on('message', message =>{
             },
             fields: [{
                 name: "**Minecraft**",
-                value: "Stock:445   || +minecraft"
+                value: "Stock:15   || +minecraft"
               },
               {
                 name: "**Spotify**",
-                value: "Stock:779  ||  +spotify"
+                value: "Stock:0  ||  +spotify"
               },
               {
                 name: "**MailAccess**",
-                value: "Stock:730 ||  +mailaccess"
+                value: "Stock:100 ||  +mailaccess"
               },
               {
                 name: "**Crunchyroll**",
-                value: "Stock:201 ||  +crunchyroll"
+                value: "Stock:22 ||  +crunchyroll"
               },
               {
                 name: "**Origin**",
-                value: "Stock:230 ||  +origin"
+                value: "Stock:70 ||  +origin"
               },
               {
                 name: "**UncheckedNitroCodes**",
-                value: "Stock:970 ||  +nitro"
+                value: "Stock:0 ||  +nitro"
               },
               {
                 name: "**Netflix**",
-                value: "Stock:870 ||  +netflix"
+                value: "Stock:0 ||  +netflix"
               },
               {
 
                name: "**Nordvpn**",
-                value: "Stock:500 || +nordvpn"
+                value: "Stock:50 || +nordvpn"
               },
               {  
                   name: "**Join Titanium Gen Official CM**",
