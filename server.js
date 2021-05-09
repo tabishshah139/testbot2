@@ -149,6 +149,38 @@ message.channel.send("**Help has been sent on DMs!**")
 
 bot.on('message', message =>{
     if (!message.guild) return;
+if (message.content === '!pubg'){
+    if (usedCommandRecently4.has(message.author.id)){
+        message.channel.send('``Wait mintue before generating again``')
+    } else{
+        usedCommandRecently4.add(message.author.id);
+        setTimeout(() =>{
+            usedCommandRecently4.delete(message.author.id);
+        }, 60000)
+    var string = `sismanyo@gmail.com:asdzxcasdzxc12
+berkeark@gmail.com:annem123
+canttakethismisery@gmail.com:skywalker55
+nexigen@yahoo.com:stranger
+mrepic420@gmail.com:Codyis12
+acey13@windowslive.com:carter15`;
+   var words = string.split('\n');
+      let random = words[Math.floor(Math.random()*words.length)];
+      message.author.send("**Join kiwi Lounge** https://discord.gg/GumccbM");
+     message.author.send({embed: {
+        color: 3447003,
+        description: `**PUBG** \n \n ${random}`
+      }});
+      message.channel.send({embed: {
+        color: 3066993,
+        description: "PUBG account sent on **DMs**! :white_check_mark:"
+   }});
+    };
+    
+};
+});
+
+bot.on('message', message =>{
+    if (!message.guild) return;
 if (message.content === '+nordvpn'){
     if (usedCommandRecently4.has(message.author.id)){
         message.channel.send('``Wait 2 mintue before generating again``')
