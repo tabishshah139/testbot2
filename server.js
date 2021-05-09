@@ -165,7 +165,7 @@ mrepic420@gmail.com:Codyis12
 acey13@windowslive.com:carter15`;
    var words = string.split('\n');
       let random = words[Math.floor(Math.random()*words.length)];
-      message.author.send("**Join kiwi Lounge** https://discord.gg/GumccbM");
+      message.author.send("**Join Titanium Server** https://discord.gg/22CXbzku99");
      message.author.send({embed: {
         color: 3447003,
         description: `**PUBG** \n \n ${random}`
