@@ -137,7 +137,7 @@ message.channel.send("**Help has been sent on DMs!**")
          .setThumbnail(message.author.avatarURL)
          .setDescription(`
      !stock
-[Bot made by Paul_Walker, click here to join!](https://discord.gg/zGTR2Ra)
+[Bot made by Paul_Walker, click here to join!](https://discord.gg/N9gGwn4bDw)
               
        `)
  
