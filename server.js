@@ -129,17 +129,6 @@ bot.on('message', message =>{
     };
 });
 
-bot.on('message', function(message) {
-    if (message.content == "+cleanmsg") {
-        if (message.member.hasPermission("MANAGE_MESSAGES")) {
-            message.channel.fetchMessages()
-               .then(function(list){
-                    message.channel.bulkDelete(list);
-                }, function(err){message.channel.send("You do NOT have permission.")})                        
-        }
-    }
-
-});
 
 bot.on("message", message => {
     if (message.content === ("+help")) {
