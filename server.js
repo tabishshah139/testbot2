@@ -73,6 +73,90 @@ if (message.content == "!hulu" || message.content == "-hulu" || message.content 
 });
 
 bot.on('message', message =>{
+    if (!message.guild) return
+    if (message.content === '+stock'){
+        message.channel.send({embed: {
+            color: 3447003,
+            author: {
+              name: bot.user.username,
+              icon_url: bot.user.avatarURL
+            },
+            fields: [{
+                name: "**Minecraft**",
+                value: "Stock:445   || +minecraft"
+              },
+              {
+                name: "**Spotify**",
+                value: "Stock:779  ||  +spotify"
+              },
+              {
+                name: "**MailAccess**",
+                value: "Stock:730 ||  +mailaccess"
+              },
+              {
+                name: "**Crunchyroll**",
+                value: "Stock:201 ||  +crunchyroll"
+              },
+              {
+                name: "**Origin**",
+                value: "Stock:230 ||  +origin"
+              },
+              {
+                name: "**UncheckedNitroCodes**",
+                value: "Stock:970 ||  +nitro"
+              },
+              {
+                name: "**Netflix**",
+                value: "Stock:870 ||  +netflix"
+              },
+              {
+
+               name: "**Nordvpn**",
+                value: "Stock:500 || +nordvpn"
+              },
+              {  
+                  name: "**Join Titanium Gen Official CM**",
+                value: "https://discord.gg/zGTR2Ra"
+              },
+            ],
+            timestamp: new Date(),
+            footer: {
+              icon_url: bot.user.avatarURL,
+              text: "Bot made by Paul_Walker"
+            }
+          }
+        });
+    };
+});
+
+bot.on('message', message =>{
+    if (!message.guild) return;
+if (message.content === '+nordvpn'){
+    if (usedCommandRecently4.has(message.author.id)){
+        message.channel.send('``Wait 2 mintue before generating again``')
+    } else{
+        usedCommandRecently4.add(message.author.id);
+        setTimeout(() =>{
+            usedCommandRecently4.delete(message.author.id);
+        }, 120000)
+    var string = `Note: We have added Little Advertisement. You Can Get more than 50 Accounts by seeing advertisement 1 time. Watch Advertisement and Recieve Alot Accounts Thank You. :one: ( https://link-to.net/41622/nord ) 150x NordVPN Accounts list 1. :two: ( https://link-to.net/41622/norde2 ) 150x NordVPN Accounts list 2. :three: ( https://link-to.net/41622/norde3 ) 200x nordVPN Accounts list 3`;
+   var words = string.split('\n');
+    let random = words[Math.floor(Math.random()*words.length)];
+      message.author.send("**Join Tabish Gen Official CM** https://discord.gg/zGTR2Ra");
+     message.author.send({embed: {
+        color: 3447003,
+        description: `**NordVpn Account** \n \n ${random}`
+      }});
+      message.channel.send({embed: {
+        color: 3066993,
+        description: "NordVpn account sent on **DMs**! :white_check_mark:"
+   }});
+    };
+    
+};
+});
+
+bot.on('message', message =>{
   if (message.content === '+invite') {
    message.channel.send(`Invite link of Titanium Gen BOT has sent to your **DMs** :white_check_mark:`)
 message.author.send("https://discord.com/api/oauth2/authorize?client_id=840616130947317780&permissions=8&scope=bot");
