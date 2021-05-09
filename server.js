@@ -53,6 +53,13 @@ message.author.send(":one: Random Drop You Can See Detail About Account by visit
 }); 
 
 bot.on('message', message =>{
+  if (message.content === '+statsupdate') {
+   bot.user.setActivity(`${bot.guilds.size} servers | +stocks | +Invite  `);
+    message.channel.send("**The stats have been updated!**")
+   }
+});
+
+bot.on('message', message =>{
   if (message.content === '+botstats') {
    message.channel.send(`${bot.guilds.size} servers with ${bot.users.size} members!`)
    }
