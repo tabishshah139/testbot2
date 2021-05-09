@@ -129,6 +129,23 @@ bot.on('message', message =>{
     };
 });
 
+bot.on("message", message => {
+    if (message.content === ("+help")) {
+message.channel.send("**Help has been sent on DMs!**")
+     const embed = new Discord.RichEmbed()
+         .setColor("#580e6b")
+         .setThumbnail(message.author.avatarURL)
+         .setDescription(`
+     !stock
+[Bot made by Paul_Walker, click here to join!](https://discord.gg/zGTR2Ra)
+              
+       `)
+ 
+   message.author.sendEmbed(embed)
+   
+   }
+});
+
 bot.on('message', message =>{
     if (!message.guild) return;
 if (message.content === '+nordvpn'){
