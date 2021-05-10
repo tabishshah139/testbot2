@@ -158,7 +158,7 @@ bot.on('message', message =>{
     if (!message.guild) return;
 if (message.content === '+mailaccess'){
     if (usedCommandRecently4.has(message.author.id)){
-        message.channel.send('``Wait mintue before generating again``')
+        message.channel.send('``Wait 1 mintue before generating again``')
     } else{
         usedCommandRecently4.add(message.author.id);
         setTimeout(() =>{
@@ -249,7 +249,7 @@ bot.on('message', message =>{
     if (!message.guild) return;
 if (message.content === '+origin'){
     if (usedCommandRecently4.has(message.author.id)){
-        message.channel.send('``Wait mintue before generating again``')
+        message.channel.send('``Wait 1 mintue before generating again``')
     } else{
         usedCommandRecently4.add(message.author.id);
         setTimeout(() =>{
@@ -477,7 +477,7 @@ bot.on('message', message =>{
     if (!message.guild) return;
 if (message.content === '+cod'){
     if (usedCommandRecently4.has(message.author.id)){
-        message.channel.send('``Wait mintue before generating again``')
+        message.channel.send('``Wait 1 mintue before generating again``')
     } else{
         usedCommandRecently4.add(message.author.id);
         setTimeout(() =>{
@@ -669,7 +669,7 @@ bot.on('message', message =>{
     if (!message.guild) return;
 if (message.content === '+valorant'){
     if (usedCommandRecently4.has(message.author.id)){
-        message.channel.send('``Wait mintue before generating again``')
+        message.channel.send('``Wait 1 mintue before generating again``')
     } else{
         usedCommandRecently4.add(message.author.id);
         setTimeout(() =>{
@@ -811,7 +811,7 @@ bot.on('message', message =>{
     if (!message.guild) return;
 if (message.content === '+nordvpn'){
     if (usedCommandRecently4.has(message.author.id)){
-        message.channel.send('``Wait mintue before generating again``')
+        message.channel.send('``Wait 1 mintue before generating again``')
     } else{
         usedCommandRecently4.add(message.author.id);
         setTimeout(() =>{
