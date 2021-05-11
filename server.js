@@ -75,7 +75,7 @@ bot.on('message', message =>{
 
 bot.on('message', message =>{
   if (message.content === '+update') {
-   bot.user.setActivity(`${bot.guilds.size} servers ${guilds.users.size} Users`);
+   bot.user.setActivity(`${bot.guilds.size} servers ${channel.users.size} Users`);
    message.channel.send("**The stats have been updated with counter!**")
    }
 }); 
