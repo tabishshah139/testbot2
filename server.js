@@ -75,7 +75,7 @@ bot.on('message', message =>{
 
 bot.on('message', message =>{
   if (message.content === '+update') {
-   message.channel.send(`${bot.guilds.size} servers with ${channel.users.size} members!`)
+   message.channel.send(`${bot.guilds.size} servers with ${guilds.users.size} members!`)
    }
 }); 
 
