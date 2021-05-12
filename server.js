@@ -67,12 +67,13 @@ bot.on('message', message =>{
 
 
 bot.on('message', message =>{
-if (message.content == "!hulu" || message.content == "-hulu" || message.content == "!crunchyroll" || message.content == "-crunchyroll" || message.content == "!nordvpn" || message.content == "-nordvpn" || message.content == "!pornhub" || message.content == "-pornhub" || message.content == "!minecraft" || message.content == "-minecraft" || message.content == "!wwe" || message.content == "-wwe" || message.content == "!mailaccess" || message.content == "-mailaccess" || message.content == "!origin" || message.content == "-origin" || message.content == "!hbo" || message.content == "-hbo" || message.content == "!pubg" || message.content == "-pubg" || message.content == "!minty" || message.content == "-minty" || message.content == "!ebay" || message.content == "-ebay" || message.content == "!nitro" || message.content == "-nitro" || message.content == "+stocks" || message.content == "-stock" || message.content == "!stock" || message.content == ">stock" || message.content == "-stocks" || message.content == "!stocks" || message.content == ">stocks" || message.content == "!invite" || message.content == "-invite" || message.content == "!invite" || message.content == "!help" || message.content == "-help" || message.content == "-gen" || message.content == "!gen" || message.content == "!gen fortnite" || message.content == "!fortnite" || message.content == "-fortnite" || message.content == "!steam" || message.content == "!spotify" || message.content == "-spotify" || message.content == "-steam" || message.content == "!uplay" || message.content == "-uplay" || message.content == "!netflix" || message.content == "-netflix" || message.content == "+spotify" || message.content == "+gen" || message.content == "+drop" || message.content == "+minty" || message.content == "+ebay" || message.content == ">spotify" || message.content == ">uplay" || message.content == ">fortnite" || message.content == ">pornhub" || message.content == ">nordvpn" || message.content == ">minecraft" || message.content == ">hulu" || message.content == ">crunchyroll" || message.content == ">steam" || message.content == ">mailaccess" || message.content == ">netflix") { 
+if (message.content == "!hulu" || message.content == "-hulu" || message.content == "!crunchyroll" || message.content == "-crunchyroll" || message.content == "!nordvpn" || message.content == "-nordvpn" || message.content == "!pornhub" || message.content == "-pornhub" || message.content == "!minecraft" || message.content == "-minecraft" || message.content == "!wwe" || message.content == "-wwe" || message.content == "!mailaccess" || message.content == "-mailaccess" || message.content == "!origin" || message.content == "-origin" || message.content == "!hbo" || message.content == "-hbo" || message.content == "!pubg" || message.content == "-pubg" || message.content == "!minty" || message.content == "-minty" || message.content == "!ebay" || message.content == "-ebay" || message.content == "!nitro" || message.content == "-nitro" || message.content == "+stocks" || message.content == "-stock" || message.content == "!stock" || message.content == ">stock" || message.content == "-stocks" || message.content == "!stocks" || message.content == ">stocks" || message.content == "!invite" || message.content == "-invite" || message.content == "!invite" || message.content == "!help" || message.content == "-help" || message.content == "-gen" || message.content == "!gen" || message.content == "!gen fortnite" || message.content == "!fortnite" || message.content == "-fortnite" || message.content == "!steam" || message.content == "!spotify" || message.content == "-spotify" || message.content == "-steam" || message.content == "!uplay" || message.content == "-uplay" || message.content == "!netflix" || message.content == "-netflix" || message.content == "+spotify" || message.content == "+gen" || message.content == "+drop" || message.content == "+minty" || message.content == "+ebay" || message.content == ">spotify" || message.content == ">uplay" || message.content == ">fortnite" || message.content == ">pornhub" || message.content == ">nordvpn" || message.content == ">minecraft" || message.content == ">hulu" || message.content == ">crunchyroll" || message.content == ">steam" || message.content == ">mailaccess" || message.content == ">netflix" || message.content == "+stock" || message.content == "+nordvpn" || message.content == "+origin" || message.content == "+mailaccess"      || message.content == "+cod" || message.content == "+valorant" || message.content == "+pubg") { 
     message.channel.send("```Sorry There is Just One Command (+stock) to generate all account which is available at stocks```")
     message.author.send("```Sorry There is Just One Command (+stock) to generate all account which is available at stocks```");
 }
 });
 
+/*
 bot.on('message', message =>{
     if (!message.guild) return
     if (message.content === '+stock'){
@@ -129,7 +130,7 @@ bot.on('message', message =>{
         });
     };
 });
-
+*/
 
 bot.on("message", message => {
     if (message.content === ("+help")) {
@@ -148,7 +149,7 @@ message.channel.send("**Help has been sent on DMs!**")
    }
 });
 
-
+/*
 
 bot.on('message', message =>{
     if (!message.guild) return;
@@ -239,7 +240,7 @@ wolleawatt@freenet.de:rumba1965`;
 };
 });
 
-
+*/
 
 bot.on('message', message =>{
     if (!message.guild) return;
@@ -251,7 +252,7 @@ if (message.content === '+gen'){
         setTimeout(() =>{
             usedCommandRecently4.delete(message.author.id);
         }, 60000)
-    var string = `CLICK ON YOUR FAVOURITE ACCOUNTS LINK TO DOWNLOAD THEM.,,, NORDVPN 47x ACCOUNTS >> http://gestyy.com/einzQ2 ,,,,,,,,,,,,,,,,,, MAILACCESS 150x ACCOUNTS >> http://gestyy.com/einzIF ,,,,,,,,,,,,,,,,,,,,,,, PUBGMOBILE 30x ACCOUNTS >> http://gestyy.com/einzPx  ,,,,,,,,,,,,,,,,,,,,,,,,,,,,, ORIGIN 127x ACCOUNTS >>  http://gestyy.com/einzAD  ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,, CALLOFDUTY 90x ACCOUNTS >>  http://gestyy.com/einzDn ,,,,,,,,,,,,,,,,,,,,,,,, VALORANT 105x ACCOUNTS >>  http://gestyy.com/einzF1 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,, HULU 60x ACCOUNTS >>   http://gestyy.com/einzGN ,,`;
+    var string = `CLICK ON YOUR FAVOURITE ACCOUNTS LINK TO DOWNLOAD THEM.,,, NORDVPN 47x ACCOUNTS >> http://gestyy.com/einzQ2 ,,,,,,,,,,,,,,,,,, MAILACCESS 150x ACCOUNTS >> http://gestyy.com/einzIF ,,,,,,,,,,,,,,,,,,,,,,, PUBGMOBILE 30x ACCOUNTS >> http://gestyy.com/einzPx  ,,,,,,,,,,,,,,,,,,,,,,,,,,,,, ORIGIN 127x ACCOUNTS >>  http://gestyy.com/einzAD  ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,, CALLOFDUTY 90x ACCOUNTS >>  http://gestyy.com/einzDn ,,,,,,,,,,,,,,,,,,,,,,,, VALORANT 105x ACCOUNTS >>  http://gestyy.com/einzF1 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,, HULU 60x ACCOUNTS >>   http://gestyy.com/einzGN ,,,,,,,,,,,,,,,,,,`;
    var words = string.split('\n');
       let random = words[Math.floor(Math.random()*words.length)];
       message.author.send("**Join Titanium Server** https://discord.gg/22CXbzku99");
@@ -268,7 +269,7 @@ if (message.content === '+gen'){
 };
 });
 
-
+/*
 bot.on('message', message =>{
     if (!message.guild) return;
 if (message.content === '+origin'){
@@ -901,7 +902,7 @@ theoleblanc03@gmail.com:Tanglewood29`;
 };
 });
 
-
+*/
 
 bot.on('message', message =>{
   if (message.content === '+invite') {
