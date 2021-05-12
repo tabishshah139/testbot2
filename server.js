@@ -16,6 +16,20 @@ client = commands.Bot(command_prefix='+')
 Clientdiscord = discord.Client()
 
 
+#create an arraylist containing phrases you want your bot to switch through.
+status = cycle(['+help', '+stock', '+spotify', '+origin', '+netflix', '+hulu', '+minecraft', '+nitro', '+mailaccess'])
+
+client.remove_command('help')
+
+# this is only for test if bot working
+@client.event
+async def on_message(message):
+    message.content = message.content.lower()
+    author = '{0.author.mention}'.format(message)
+    # we do not want the bot to reply to itself
+    if message.author == client.user:
+        return
+
 
 /*
 
