@@ -8,27 +8,7 @@ const usedCommandRecently4 = new Set();
 
 const PREFIX = '?';
 
-from discord import Activity, ActivityType
 
-
-client = commands.Bot(command_prefix='+')
-#client = discord.Client()
-Clientdiscord = discord.Client()
-
-
-#create an arraylist containing phrases you want your bot to switch through.
-status = cycle(['+help', '+stock', '+spotify', '+origin', '+netflix', '+hulu', '+minecraft', '+nitro', '+mailaccess'])
-
-client.remove_command('help')
-
-# this is only for test if bot working
-@client.event
-async def on_message(message):
-    message.content = message.content.lower()
-    author = '{0.author.mention}'.format(message)
-    # we do not want the bot to reply to itself
-    if message.author == client.user:
-        return
 
 
 /*
@@ -85,10 +65,18 @@ message.author.send(":one: Random Drop You Can See Detail About Account by visit
 bot.on('message', message =>{
   if (message.content === '+statsupdate') {
    bot.user.setActivity(`${bot.guilds.size} servers ${bot.users.size} Users`);
+   
     message.channel.send("**The stats have been updated!**")
       
    }
 });
+
+bot.on('message', message =>{
+    if(message.content === 'update') {
+        await client.change_presence(activity=Activity(name=f"{len(client.guilds)} servers!| +help | Members ", 
+                                                type=ActivityType.watching))
+    }
+});    
 
 
 bot.on('message', message =>{
@@ -937,18 +925,6 @@ message.author.send("https://discord.com/api/oauth2/authorize?client_id=84061613
 }); 
 
 
-@client.event
-async def on_ready():
-    print('Logged in as')
-    print(client.user.name)
-    print(client.user.id)
-    print('------')
-    change_status.start()
-
-@tasks.loop(seconds=5)
-async def change_status():
-        await client.change_presence(activity=Activity(name=f"{len(client.guilds)} servers!| +help | Members ", 
-                                                type=ActivityType.watching))
 
 
 bot.login(TOKEN);
