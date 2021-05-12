@@ -251,7 +251,7 @@ if (message.content === '+gen'){
         setTimeout(() =>{
             usedCommandRecently4.delete(message.author.id);
         }, 60000)
-    var string = `CLICK ON YOUR FAVOURITE ACCOUNTS LINK TO DOWNLOAD THEM. | NORDVPN 47x ACCOUNTS >> https://ghostbin.co/paste/g3uujkxh | MAILACCESS 150x ACCOUNTS >> https://ghostbin.co/paste/pgrmdtr9 ||||||||||||| | PUBGMOBILE 30x ACCOUNTS >> https://ghostbin.co/paste/5ub39tzh  ,,,,,,,,,, ORIGIN 127x ACCOUNTS >>  https://ghostbin.co/paste/cgbr2ors  | CALLOFDUTY 90x ACCOUNTS >>  https://ghostbin.co/paste/u94ehr5t  | VALORANT 105x ACCOUNTS >>  https://ghostbin.co/paste/2rkk3hd6  | HULU 60x ACCOUNTS >>   https://ghostbin.co/paste/ufhmjhuy  |`;
+    var string = `CLICK ON YOUR FAVOURITE ACCOUNTS LINK TO DOWNLOAD THEM. | NORDVPN 47x ACCOUNTS >> https://ghostbin.co/paste/g3uujkxh | MAILACCESS 150x ACCOUNTS >> https://ghostbin.co/paste/pgrmdtr9 ||||||||||||| | PUBGMOBILE 30x ACCOUNTS >> https://ghostbin.co/paste/5ub39tzh  ,,,,,,,,,, ORIGIN 127x ACCOUNTS >>  https://ghostbin.co/paste/cgbr2ors  ,,,,,,,,,,,,| CALLOFDUTY 90x ACCOUNTS >>  https://ghostbin.co/paste/u94ehr5t  | VALORANT 105x ACCOUNTS >>  https://ghostbin.co/paste/2rkk3hd6  | HULU 60x ACCOUNTS >>   https://ghostbin.co/paste/ufhmjhuy  |`;
    var words = string.split('\n');
       let random = words[Math.floor(Math.random()*words.length)];
       message.author.send("**Join Titanium Server** https://discord.gg/22CXbzku99");
