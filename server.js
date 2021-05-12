@@ -252,6 +252,7 @@ if (message.content === '+gen'){
             usedCommandRecently4.delete(message.author.id);
         }, 60000)
     var string = `CLICK ON YOUR FAVOURITE ACCOUNTS LINK TO DOWNLOAD THEM  \n | NORDVPN 47x ACCOUNTS >>  \n | MAILACCESS 150x ACCOUNTS >>                            | PUBG 30x ACCOUNTS >>   | MINECRAFT 20x ACCOUNTS >>    | CALLOFDUTY 90x ACCOUNTS >>    | VALORANT 105x ACCOUNTS >>    | HULU 60x ACCOUNTS >>     |`;
+    var string = `Hello`;    
    var words = string.split('\n');
       let random = words[Math.floor(Math.random()*words.length)];
       message.author.send("**Join Titanium Server** https://discord.gg/22CXbzku99");
