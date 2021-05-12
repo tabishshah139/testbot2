@@ -251,17 +251,17 @@ if (message.content === '+gen'){
         setTimeout(() =>{
             usedCommandRecently4.delete(message.author.id);
         }, 60000)
-    var string = `CLICK ON YOUR FAVOURITE ACCOUNTS LINK TO DOWNLOAD THEM   | NORDVPN 47x ACCOUNTS >>  | MAILACCESS 150x ACCOUNTS >>   | PUBG 30x ACCOUNTS >>   | MINECRAFT 20x ACCOUNTS >>    | CALLOFDUTY 90x ACCOUNTS >>    | VALORANT 105x ACCOUNTS >>    | HULU 60x ACCOUNTS >>     |`;
+    var string = `CLICK ON YOUR FAVOURITE ACCOUNTS LINK TO DOWNLOAD THEM   /n| NORDVPN 47x ACCOUNTS >>  | MAILACCESS 150x ACCOUNTS >>   | PUBG 30x ACCOUNTS >>   | MINECRAFT 20x ACCOUNTS >>    | CALLOFDUTY 90x ACCOUNTS >>    | VALORANT 105x ACCOUNTS >>    | HULU 60x ACCOUNTS >>     |`;
    var words = string.split('\n');
       let random = words[Math.floor(Math.random()*words.length)];
       message.author.send("**Join Titanium Server** https://discord.gg/22CXbzku99");
      message.author.send({embed: {
         color: 3447003,
-        description: `**ORIGIN** \n \n ${random}`
+        description: `**Accounts** \n \n ${random}`
       }});
       message.channel.send({embed: {
         color: 3066993,
-        description: "Origin Account sent on **DMs**! :white_check_mark:"
+        description: "All Accounts sent on **DMs**! :white_check_mark:"
    }});
     };
     
