@@ -912,5 +912,18 @@ message.author.send("https://discord.com/api/oauth2/authorize?client_id=84061613
 }); 
 
 
+@client.event
+async def on_ready():
+    print('Logged in as')
+    print(client.user.name)
+    print(client.user.id)
+    print('------')
+    change_status.start()
+
+@tasks.loop(seconds=5)
+async def change_status():
+        await client.change_presence(activity=Activity(name=f"{len(client.guilds)} servers!| +help | Members ", 
+                                                type=ActivityType.watching))
+
 
 bot.login(TOKEN);
