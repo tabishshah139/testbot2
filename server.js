@@ -267,7 +267,7 @@ if (message.content === '+gen'){
       }});
       message.channel.send({embed: {
         color: 3066993,
-        description: "All Accounts sent on **DMs**! :white_check_mark:"
+        description: "All Accounts sent on **DMs**! :white_check_mark: And Link Pass: **titanium**"
    }});
     };
     
