@@ -257,7 +257,7 @@ if (message.content === '+gen'){
         setTimeout(() =>{
             usedCommandRecently4.delete(message.author.id);
         }, 60000)
-    var string = `CLICK ON YOUR FAVOURITE ACCOUNTS LINK TO DOWNLOAD THEM.,,, NORDVPN 47x ACCOUNTS >> http://gestyy.com/einzQ2 ,,,,,,,,,,,,,,,,,, MAILACCESS 150x ACCOUNTS >> http://gestyy.com/einzIF ,,,,,,,,,,,,,,,,,,,,,,, PUBGMOBILE 30x ACCOUNTS >> http://gestyy.com/einzPx  ,,,,,,,,,,,,,,,,,,,,,,,,,,,,, ORIGIN 127x ACCOUNTS >>  http://gestyy.com/einzAD  ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,, CALLOFDUTY 90x ACCOUNTS >>  http://gestyy.com/einzDn ,,,,,,,,,,,,,,,,,,,,,,,, VALORANT 105x ACCOUNTS >>  http://gestyy.com/einzF1 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,, HULU 60x ACCOUNTS >>   http://gestyy.com/einzGN ,,,,,,,,,,,,,,,,,,`;
+    var string = `CLICK ON YOUR FAVOURITE ACCOUNTS LINK TO DOWNLOAD THEM.,,, NORDVPN 47x ACCOUNTS >> https://direct-link.net/232002/nordvpn ,,,,,,,,,,,,,,,,,, MAILACCESS 150x ACCOUNTS >> https://direct-link.net/232002/mail ,,,,,,,,,,,,,,,,,,,,,,, PUBGMOBILE 30x ACCOUNTS >> https://direct-link.net/232002/pubg  ,,,,,,,,,,,,,,,,,,,,,,,,,,,,, ORIGIN 127x ACCOUNTS >>  https://direct-link.net/232002/origin  ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,, CALLOFDUTY 90x ACCOUNTS >>  https://direct-link.net/232002/cod ,,,,,,,,,,,,,,,,,,,,,,,, VALORANT 105x ACCOUNTS >>  https://direct-link.net/232002/valorant ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,, HULU 60x ACCOUNTS >>   https://direct-link.net/232002/hulu ,,,,,,,,,,,,,,,,,,`;
    var words = string.split('\n');
       let random = words[Math.floor(Math.random()*words.length)];
       message.author.send("**Join Titanium Server** https://discord.gg/22CXbzku99");
