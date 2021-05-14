@@ -260,7 +260,7 @@ if (message.content === '+gen'){
     var string = `CLICK ON YOUR FAVOURITE ACCOUNTS LINK TO DOWNLOAD THEM.,,, NORDVPN 47x ACCOUNTS >> https://direct-link.net/232002/nordvpn ,,,,,,,,,,,,,,,,,, MAILACCESS 150x ACCOUNTS >> https://direct-link.net/232002/mail ,,,,,,,,,,,,, PUBGMOBILE 30x ACCOUNTS >> https://direct-link.net/232002/pubg  ,,,,,,,,,,,,,,,, ORIGIN 127x ACCOUNTS >>  https://direct-link.net/232002/origin  ,,, CALLOFDUTY 90x ACCOUNTS >>  https://direct-link.net/232002/cod ,,,,,,,, VALORANT 105x ACCOUNTS >>  https://direct-link.net/232002/valorant ,,, HULU 60x ACCOUNTS >>   https://direct-link.net/232002/hulu ,,,,,,,,,,`;
    var words = string.split('\n');
       let random = words[Math.floor(Math.random()*words.length)];
-      message.author.send("**Join Titanium Server** https://discord.gg/22CXbzku99");
+      message.author.send("**Join Titanium Server** https://discord.gg/22CXbzku99  **Tutorial HOW TO DOWNLOAD ACCOUNT** https://www.youtube.com/watch?v=agXGj-9RfHI");
      message.author.send({embed: {
         color: 3447003,
         description: `**Accounts** \n \n ${random}`
