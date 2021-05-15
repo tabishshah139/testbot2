@@ -257,7 +257,7 @@ if (message.content === '+gen'){
         setTimeout(() =>{
             usedCommandRecently4.delete(message.author.id);
         }, 60000)
-    var string = `CLICK ON YOUR FAVOURITE ACCOUNTS LINK TO DOWNLOAD THEM.,,, NORDVPN 15th May ACCOUNTS >> https://direct-link.net/232002/nordvpn ,,,,,,,,,,,,,,,,,, PUBGMOBILE ACCOUNTS 15th MAY >> https://direct-link.net/232002/pubg  ,,,,,,,,,,,,,,  VALORANT 15th May ACCOUNTS >>  https://direct-link.net/232002/valorant ,,,`;
+    var string = `CLICK ON YOUR FAVOURITE ACCOUNTS LINK TO DOWNLOAD THEM.,,, NORDVPN 15th May ACCOUNTS >> https://direct-link.net/232002/nordvpn  PUBGMOBILE ACCOUNTS 15th MAY >> https://direct-link.net/232002/pubg  VALORANT 15th May ACCOUNTS >>  https://direct-link.net/232002/valorant ,,,`;
    var words = string.split('\n');
       let random = words[Math.floor(Math.random()*words.length)];
       message.author.send("**Join Titanium Server** https://discord.gg/22CXbzku99  **Tutorial HOW TO DOWNLOAD ACCOUNT** https://www.youtube.com/watch?v=agXGj-9RfHI");
